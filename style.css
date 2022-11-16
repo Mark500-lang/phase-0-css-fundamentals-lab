@@ -3,3 +3,41 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+nav{
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: center;
+  background: maroon;
+}
+figure{
+  text-align: center;
+}
+figcaption{
+  font-size: small;
+}
+
+section > p{
+  margin: auto;
+  padding-bottom:10px;
+  width: 800px;
+}
+#details > div{
+  position: relative;
+  min-height: 50px;
+  top: auto;
+  right: auto;
+  left: auto;
+  float: left;
+  width: auto;
+  padding-left: 90.85px;
+  padding-right: 90.85px;
+  flex: 1 auto;
+  background-color: red;
+  text-align: center;
+
+}
